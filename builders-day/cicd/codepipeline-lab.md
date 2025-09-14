@@ -198,14 +198,12 @@ Before creating the CodeBuild project, create a Github Connection from Developer
   - **Follow OAuth flow** to authorize GitHub access
 - **Repository name**: Select your forked `ccp` repository
 - **Branch name**: `main`
-- **Output artifacts**: `SourceOutput`
 - **Click "Next"**
 
 ### Step 4: Add Build Stage
 - **Build provider**: AWS CodeBuild
 - **Project name**: Select `S3-Deploy-Build`
 - **Input artifacts**: `SourceOutput`
-- **Output artifacts**: `BuildOutput`
 - **Click "Next"**
 
 ### Step 5: Add Deploy Stage
