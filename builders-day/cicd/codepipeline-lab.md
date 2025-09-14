@@ -192,7 +192,7 @@ Before creating the CodeBuild project, create a Github Connection from Developer
 - **Click "Next"**
 
 ### Step 3: Add Source Stage
-- **Source provider**: GitHub (Version 2)
+- **Source provider**: GitHub App
 - **Connection**: Create new connection
   - **Connection name**: `GitHub-Connection`
   - **Follow OAuth flow** to authorize GitHub access
@@ -224,7 +224,6 @@ Before creating the CodeBuild project, create a Github Connection from Developer
 2. **Find** the CodePipeline service role (e.g., `AWSCodePipelineServiceRole-us-west-2-WebApp-CI-CD-Pipeline`)
 3. **Click** on the role → **Attach policies**
 4. **Add these policies**:
-   - `AWSCodeBuildDeveloperAccess`
    - `AWSCodeDeployFullAccess`
 5. **Click "Attach policies"**
 
