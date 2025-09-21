@@ -13,7 +13,7 @@ Build an automated EC2 monitoring and recovery system that:
 **Architecture Flow:**
 - EC2 Instance → CloudWatch Alarm → SNS → EC2 Stop
 - EC2 State Change → EventBridge → Systems Manager → EC2 Start
-
+![EC2 Monitoring Architecture](monitoring.png)
 ---
 
 ## Prerequisites
