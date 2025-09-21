@@ -143,7 +143,7 @@ aws cloudwatch set-alarm-state --alarm-name "CPU-High-Stop-Instance" --state-val
 
 ### Step 4: Configure Target
 1. **Target type**: AWS service
-2. **Service**: Systems Manager
+2. **Service**: Systems Manager Automation
 3. **Document**: AWS-StartEC2Instance
 4. **Create a new role**: Yes (check the box)
 5. **Configure input**:
