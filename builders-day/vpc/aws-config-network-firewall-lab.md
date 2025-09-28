@@ -5,6 +5,7 @@ Learn AWS Config compliance monitoring and Network Firewall security controls th
 ---
 
 ## Lab Overview
+![Network Firewall Architecture](./network-firewall.png)
 Build a comprehensive security and compliance system that:
 1. **Monitors S3 compliance** with AWS Config and automatic remediation
 2. **Controls network traffic** with AWS Network Firewall to block specific DNS resolvers
