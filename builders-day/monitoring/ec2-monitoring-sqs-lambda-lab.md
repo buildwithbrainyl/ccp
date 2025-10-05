@@ -88,7 +88,7 @@ EC2 Instance → CloudWatch Alarm → SNS Topic → SQS Queue → Lambda Functio
    - **Visibility timeout**: 60 seconds
    - **Message retention period**: 4 days (default)
    - **Delivery delay**: 0 seconds
-   - **Maximum message size**: 256 KB (default)
+   - **Maximum message size**: 1024 KB (default)
 6. **Click "Create queue"**
 7. **Copy the Queue ARN** from the details page
 
