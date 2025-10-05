@@ -197,11 +197,11 @@ aws cloudwatch set-alarm-state \
 ```
 
 ### Step 2: Monitor the Flow
-1. **Navigate to SNS** → Topics → `EC2-CPU-Alerts` → "Publications"
-   - Verify message was published (may take 1-2 minutes)
+1. **Navigate to CloudWatch Metrics** → SNS Topic"
+   - Verify the NumberOfMessagesPublished metric
 
 2. **Navigate to SQS** → Queues → `EC2-Alarm-Queue` → "Monitoring"
-   - Check "Messages available" graph for spike
+   - Check "Messages received" graph for spike
    - Check "Messages deleted" showing Lambda processed it
 
 3. **Navigate to Lambda** → Functions → `StopEC2OnAlarm` → "Monitor"
