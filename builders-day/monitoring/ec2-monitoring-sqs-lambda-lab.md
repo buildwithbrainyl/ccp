@@ -5,6 +5,7 @@ Learn event-driven EC2 automation using CloudWatch, SNS, SQS, and Lambda - all t
 ---
 
 ## Lab Overview
+![EC2 Monitoring SQS Lambda](ec2-monitoring-sqs-lambda-lab.png)
 Build an event-driven EC2 monitoring system that:
 1. **Monitors EC2 CPU** with CloudWatch alarms
 2. **Publishes alerts** to SNS topic
