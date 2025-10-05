@@ -149,9 +149,8 @@ EC2 Instance → CloudWatch Alarm → SNS Topic → SQS Queue → Lambda Functio
 3. **Click** "Lambda triggers" tab
 4. **Click** "Configure Lambda function trigger"
 5. **Lambda function**: Select `StopEC2OnAlarm` from dropdown
-6. **Batch size**: 1
-7. **Click "Save"**
-8. **Verify** the trigger appears in the Lambda triggers list
+6. **Click "Save"**
+7. **Verify** the trigger appears in the Lambda triggers list
 
 ---
 
