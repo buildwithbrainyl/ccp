@@ -390,4 +390,4 @@ curl -X POST \
 - ✅ Test APIs using CloudShell
 - ✅ Integrate API Gateway with SNS for notifications
 
-Edit from developers branch
+Test lambda trigger
