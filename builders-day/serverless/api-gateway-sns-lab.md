@@ -389,5 +389,3 @@ curl -X POST \
 - ✅ Use URL query string parameters for request transformation
 - ✅ Test APIs using CloudShell
 - ✅ Integrate API Gateway with SNS for notifications
-
-Testing Webhook!!!
