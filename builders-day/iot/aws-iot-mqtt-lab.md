@@ -80,7 +80,10 @@
    - Copy code from: https://github.com/buildwithbrainyl/ccp/blob/main/builders-day/iot/publisher.py
    - Paste into nano editor
    - Press `Ctrl+O` to save, `Enter` to confirm, `Ctrl+X` to exit
-
+Alternatively, execute the following command:
+```bash
+wget https://raw.githubusercontent.com/buildwithbrainyl/ccp/main/builders-day/iot/publisher.py -O publisher.py
+```
 5. **Upload certificates to CloudShell:**
    - Click **Actions → Upload file** in CloudShell
    - Upload your downloaded `*-certificate.pem.crt` file
